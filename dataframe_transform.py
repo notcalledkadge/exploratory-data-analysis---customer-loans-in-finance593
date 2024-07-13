@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import zscore, skew,boxcox
-from db_utils import RDSDatabaseConnector, load_credentials
+from rds_databaseconnector import RDSDatabaseConnector, load_credentials
 from data_transform import DataTransform
 from dataframe_info import DataFrameInfo
 
